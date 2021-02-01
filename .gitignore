@@ -1,3 +1,5 @@
 # Compiled source #
-/Stack/*.exe
-/Queue/*.exe
+# /Stack/*.exe
+# /Queue/*.exe
+# /LinkedList/*.exe
+/**/*.exe
