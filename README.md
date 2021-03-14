@@ -1,5 +1,4 @@
 # Data-structures-cpp
-implementation of the data structures in c++
 
 ### List :pencil2:
 
