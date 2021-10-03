@@ -32,6 +32,10 @@ template<class T> class Stack
 
         T pop()
         {
+             if(top<0){
+                throw "Stack is empty";
+            }
+            
             return arr[top--];
         }
 
@@ -41,12 +45,18 @@ int main()
 {
     Stack<int> int_stack;
     Stack<std::string> str_stack;
-    int_stack.push(67);
-    str_stack.push("Hello");
-    str_stack.push("Codezclub");
-    std::cout << int_stack.pop() << std::endl;
-    std::cout << str_stack.pop() << std::endl;
-    std::cout << str_stack.pop() << std::endl;
+    try{
+        int_stack.push(67);
+        str_stack.push("Hello");
+        str_stack.push("Codezclub");
+        std::cout << int_stack.pop() << std::endl;
+        std::cout << str_stack.pop() << std::endl;
+        std::cout << str_stack.pop() << std::endl;
+    }
+    catch(char const* e){
+        std::cout<<e<<std::endl;
+    }
+    
 
     return 0;
 }
