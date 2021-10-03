@@ -1,4 +1,5 @@
-# Data-structures-cpp
+# Data-structures
+
 
 ### List :pencil2:
 #### C++
@@ -11,3 +12,13 @@
       * for max heap
       * for min heap
       * compare
+
+#### Java
+  * Stack
+
+#### Python
+  
+<br>
+
+## Contribution Guidelines 
+  for more details read [How to contribute?](/CONTRIBUTING.md)
