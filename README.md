@@ -17,6 +17,11 @@
   * Stack
 
 #### Python
+  * Queue
+    * using list
+    * using Queue module
+    * using Dequeue module
+    * Priority queue
   
 <br>
 
