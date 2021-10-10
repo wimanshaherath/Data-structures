@@ -12,6 +12,8 @@
       * for max heap
       * for min heap
       * compare
+  * Deqeue
+    * with STL
 
 #### Java
   * Stack
