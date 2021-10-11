@@ -6,6 +6,7 @@
   * Stack
     * without STL
     * with STL
+    * using linked list 
   * Queue
     * without STL
     * Priority Queue with STL
