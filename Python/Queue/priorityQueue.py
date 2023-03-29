@@ -16,5 +16,5 @@ print("First element in the priority queue: ", myQueue.queue[0])
 
 # Dequeue operation
 print("Elements in the priority queue:")
-while not myQueue.empty():  # till queue is not empty
+while not myQueue.empty():  # this till queue is not empty
     print(myQueue.get())  
